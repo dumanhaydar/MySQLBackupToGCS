@@ -44,7 +44,7 @@ Where:
 
 -   `*dbName*` is the name of the MySQL database.
 -   `*gcsBucketName*` is the name of the Google Cloud Storage bucket.
--   `*pathToMySQLconfig*` is the path to the MySQL configuration file.
+-   `*pathToMySQLconfig*` is the path to the MySQL configuration file _(exemple .my.cnf)_
 -   `*keepSize*` is the number of backups to keep.
 
 ## Security
