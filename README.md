@@ -23,7 +23,7 @@ This project provides an automated solution for backing up MySQL databases to Go
 
 Clone the repository and build the executable:
 
-    git  clone https://github.com/dumanhaydar/MySQLBackupToGCS.git
+    git clone https://github.com/dumanhaydar/MySQLBackupToGCS.git
     cd MySQLBackupToGCS
     go build -o bin/mbg main.go
 
