@@ -23,23 +23,22 @@ This project provides an automated solution for backing up MySQL databases to Go
 
 Clone the repository and build the executable:
 
-bashCopy code
-
-`git  clone  [REPOSITORY_URL]  cd  [REPOSITORY_NAME] go build -o bin/mbg main.go`
+    git  clone https://github.com/dumanhaydar/MySQLBackupToGCS.git
+    cd MySQLBackupToGCS
+    go build -o bin/mbg main.go
 
 Ensure `bzip2` and `mysqldump` are installed:
 
 bashCopy code
 
-`sudo apt-get install bzip2 sudo apt-get install mysql-client`
+    sudo apt-get install bzip2 
+    sudo apt-get install mysql-client
 
 ## Usage
 
 To execute the backup script, use the following command:
 
-bashCopy code
-
-`./bin/mbg -database *dbName* -bucket *gcsBucketName* -config *pathToMySQLconfig* -keep *keepSize*`
+    ./bin/mbg -database *dbName* -bucket *gcsBucketName* -config *pathToMySQLconfig* -keep *keepSize*
 
 Where:
 
